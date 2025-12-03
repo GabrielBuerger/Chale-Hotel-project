@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: helvetica, "trebuchet MS", sans-serif;
+    background: #fff url(/imagens/bg.png);
+    margin: 15px;
+}
+
+body div {
+    background-color: #ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px
+}
+
+header {
+    position: relative;
+    border: 1px solid red;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+.logo {
+    background: url(imagens/topo-imagem-principal.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid red;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+
+.logo h1 a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000px;
+}
+
+#menus {
+    background: url(imagens/topo-imagem-lateral.png) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid red;
+    width: 450px;
+    height: 250px;
+    z-index: 2;
+}
+
+#menus div {
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+#menu-locais {
+    border: 1px 0px solid #b5ab56;
+    padding: 5px 0;
+    font-size: 0.7em;
+    color: #8b8448;
+}
+
+#menu-principal{
+    border: 1px solid red;
+}
+
+#menu-principal ul {
+    border: 1px solid red;
+}
+
+#menu-principal ul li{
+    border: 1px solid red;
+}
+
+main {
+    border: 1px solid red;
+}
+
+
