@@ -18,6 +18,7 @@ body div {
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
+    background: #d8d4b3;
 }
 
 header {
@@ -92,11 +93,14 @@ header {
     }
         #menu-principal ul {
             list-style: none;
+            width: 60px;
         }
             #menu-principal ul li{
                 text-transform: uppercase;
                 font-size: 0.8em;
                 padding: 8px;
+                display: inline;
+                line-height: 30px;
             }
             #menu-principal ul li:hover{
                 background-color: #fdf6be;
@@ -106,7 +110,58 @@ header {
             }
 
 main {
+    margin-top: 5px;
+    width: 50%;
+    float: left;
+    background-color: #ede9cc;
+    padding: 15px 0;
+}
 
+aside{
+    margin-top: 5px;
+    width: 50%;
+    float: right;
+    background-color: #d8d4b3;
+    padding: 20px 0;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.conteudo h2{
+    margin: 5px 0;
+    color: #7d7640;
+    font-size: 1.1em;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+footer{
+    clear: both;
+    padding: 16px;
+    background-color: #7d7640;
 }
 
 
+aside ul li{
+    padding: 10px;
+    display: block;
+    border-top: solid #ede9cc 1px;
+    border-bottom: solid #ede9cc 1px;
+    height: 100px;
+}
+
+aside ul li:hover{
+    background-color:#ede9cc;
+}
+
+aside img {
+    margin-right: 10px;
+    width: 150px;
+    float: left;
+}
