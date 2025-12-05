@@ -142,8 +142,11 @@ p {
 }
 
 footer{
+    margin-left: -15px;
+    margin-bottom: -15px;
     clear: both;
     padding: 16px;
+    width: 110%;
     background-color: #7d7640;
 }
 
@@ -158,10 +161,22 @@ aside ul li{
 
 aside ul li:hover{
     background-color:#ede9cc;
+    cursor: pointer;
 }
 
 aside img {
     margin-right: 10px;
     width: 150px;
     float: left;
+}
+
+#beneficios li a p{
+    font-size: 0.8em;
+    color: #000;
+}
+
+#beneficios li a h3{
+    font-size: 1.1em;
+    color: #6e672c;
+    background: url(/imagens/ornamento.png) no-repeat center right;
 }
